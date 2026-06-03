@@ -214,7 +214,9 @@ https://firms.modaps.eosdis.nasa.gov/download/
 Baixe o arquivo referente aos focos de calor do Brasil e salve-o com o nome: fires_raw.csv
 
 Em seguida suba o arquivo:
+
 data/
+
 └── fires_raw.csv
 
 Para executar basta apenas rodar o codigo "python main.py".
