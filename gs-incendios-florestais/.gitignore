@@ -1,0 +1,5 @@
+data/fires_raw.csv
+data/fires_clean.csv
+data/models/*.pkl
+__pycache__/
+*.pyc
