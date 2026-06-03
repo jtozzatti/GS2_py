@@ -197,4 +197,26 @@ python src/avaliacao.py   # Etapa 4: Avaliação
 
 ---
 
+---
+
+## ⚠️ Observação Importante
+
+O dataset utilizado neste projeto (**NASA FIRMS 2024**) possui um volume elevado de dados, ultrapassando o limite recomendado para versionamento no GitHub. Por esse motivo, o arquivo CSV original não foi incluído no repositório.
+
+Para executar o projeto corretamente, é necessário baixar manualmente o dataset disponibilizado pela NASA e adicioná-lo à pasta `data/`.
+
+### Download do Dataset
+
+Acesse o portal NASA FIRMS:
+
+https://firms.modaps.eosdis.nasa.gov/download/
+
+Baixe o arquivo referente aos focos de calor do Brasil e salve-o com o nome: fires_raw.csv
+
+Em seguida suba o arquivo:
+data/
+└── fires_raw.csv
+
+Para executar basta apenas rodar o codigo "python main.py".
+
 *FIAP — Global Solutions 2026 | Python Avançado Aplicado à Nova Economia Espacial*
